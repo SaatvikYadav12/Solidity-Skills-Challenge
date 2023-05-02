@@ -1,4 +1,3 @@
-```sol
 // SPDX-License-Identifier: BUSL-1.1
 pragma solidity =0.7.6;
 
@@ -72,4 +71,3 @@ contract UniswapV3Factory is IUniswapV3Factory, UniswapV3PoolDeployer, NoDelegat
         emit FeeAmountEnabled(fee, tickSpacing);
     }
 }
-```
